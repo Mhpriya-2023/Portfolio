@@ -1,0 +1,246 @@
+Html-code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+</style>
+<body>
+    
+
+    <!-- Header Section -->
+    <header>
+        <div class="profile-pic">
+            <img src="C:\Users\harip\OneDrive\Desktop\Portfolio_Mine\port1.jpg" alt="Hari Priya" width="500" radius="500">
+        <h1><b><i>M.S.HARI PRIYA</b></i></h1>
+        <p>Web Developer</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="C:\Users\harip\Downloads\port.gif" width="100" height="80">
+        <p>
+            Hello and welcome to my portfolio! I'm <i>Hari Priya</i>, a passionate web developer <br>
+            With a focus on creating visually stunning and user-friendly websites.I've had the privilege <br>
+            Of working on diverse projects that showcase my expertise in web developer. I believe in the <br>
+            Power of technology to transform ideas into reality and am committed to delivering high-quality<br>                
+            Solutions. Explore my portfolio to discover some of my recent projects and get a glimpse into my <br>
+            Creative journey. Thanks for stopping by!
+            
+
+        </p>
+        
+    </section>
+    <section id="Education">
+        <h2>Education</h2>
+        <div class="Education-entry">
+            <h3>Bachelor Of Technology In Computer Science And Engineering</h3>
+            <p class="Education-info">
+                <span class="Education-institution">Sri Venkateswara Engineering College,Tirupati</span>
+                <span class="Education-duration">Graduated May 2024</span>
+
+            </p>
+            <p class="Education-CGPA">
+                CGPA:8.2
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        </div>
+        <!-- Include your project details here -->
+        <!-- Each project could have a title, description, technologies used, and a link to the live project or its repository -->
+        <b>SuperMarketbill Generator</b>
+        <img src="C:\Users\harip\OneDrive\Desktop\Portfolio_Mine\portsuper.webp" width="200" height="180">
+        <p>Purchases and automatically generates detailed bills,Including items list, quantities,
+           Developed <br> A supermarket Bill Generator application using Python.
+           Implemented a user-friendly <br> Interface that allows customers to input their `1                                                                                                                                   
+           And total amounts.</p>
+           <strong>MyOnlineMeal</strong>
+           <img src="C:\Users\harip\OneDrive\Desktop\Portfolio_Mine\portMeal.jpeg" class="MyOnlineMeal-image-left">
+           <p>“MyOnlineMeal” is a website specialising in food delivery and bulk
+            orders, applied expertise<br> In Html, CSS visually appealing to user interface,
+            resulting, in an Enhanced online<br>Ordering experience for customers.</p>
+        
+    </section>
+    <div class="skills-interest-container">
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills-</h2>
+        <!-- List your skills here, e.g., HTML, CSS, JavaScript, etc. -->
+        
+
+    </section>
+
+
+    <img class="portfolio-images" src="C:\Users\harip\Downloads\portj.webp" alt="   ">
+    <img class="portfolio-images" src="C:\Users\harip\OneDrive\Desktop\Portfolio_Mine\portdb.gif" alt="   ">
+    <img class="portfolio-images" src="C:\Users\harip\Downloads\port h,c.jpeg" alt="   ">
+    <img class="portfolio-images" src="C:\Users\harip\OneDrive\Desktop\Portfolio_Mine\portgit.gif"alt="   ">
+    <img class="portfolio-images" src="C:\Users\harip\Downloads\portpy.jpeg" alt="   ">
+</div>
+    <section id="Interest">
+        <h2>Interest</h2>
+        <div class="interest-image-container">
+        <div class="interest-image-right">
+            <img src="C:\Users\harip\OneDrive\Desktop\Portfolio_Mine\portml.gif" alt="Right Image" width="400" height="400">
+            <strong>MACHINE LEARNING</strong>
+        </div>
+        <div class="interest-image-left">
+            <img src="C:\Users\harip\OneDrive\Desktop\Portfolio_Mine\portop.gif" alt="Left Image" width="400" height="400">
+            <strong>OPERATING SYSTEMS</strong>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Mail id <a href="mailto:haripriyamoru@gmail.com">Click here to email me</a></p>
+        <p>Visit My Linkedin <a href="https://www.linkedin.com/in/hari-priya-a533b723b/" target="blank">Click here</a></p>
+        <p>Check Out Github Profile <a href="https://github.com/Mhpriya-2023" target="blank">Click here</a></p>
+    <!-- Include a simple contact form or your email and links to social media profiles -->
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 HariPriya. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+=============================================================================================================
+CSS-code
+==============================================================================================================
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding:20px;
+    background-color: rgb(141, 163, 207);
+    color: #333;
+    position:relative;
+}
+body::before,
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10px; /* Adjust the width of the decorative element as needed */
+    background-repeat:repeat-y;/* Adjust the color as needed */
+}
+
+body::before {
+    left: 0;
+    background-image:#fff ;
+}
+
+body::after {
+    right: 0px;
+    background-image:#fff;
+}
+header {
+    background-color: #be5a8f;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #be5a8f;
+    color: #fff;
+}
+.skills-interest-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills, .interest {
+    width: 45%;
+    text-align: left;
+}
+
+.skills h2, .interest h2 {
+    text-align: center;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-list li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-images {
+    width: 250px;
+    border-radius: 50%;
+}
+/* Add this to style the supermarket image */
+.supermarket-image{
+    width: 100%; /* Adjust the width as needed */
+    max-width: 200px; /* Set a max-width for responsiveness */
+    margin-top: 10px; /* Adjust the margin as needed */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+.myonlinemeal-container {
+    float: left;
+    margin-right: 10px;
+}
+.MyOnlineMeal-image-left{
+    width: 100%; /* Adjust the width as needed */
+    max-width: 200px; /* Set a max-width for responsiveness */
+    margin-top: 10px; /* Adjust the margin as needed */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+/* Your existing styles... */
+.interest-image-container {
+    display: flex;
+    justify-content: space-between;
+}
+.interest-image-right,
+.interest-image-left {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0; /* Add this to reset margin */
+}
+.interest-image-right img,
+.interest-image-left img {
+    width: 100%;
+    border-radius: 10px;
+}
+//by this codeyou can see my portfolio 
+//Thnak you
